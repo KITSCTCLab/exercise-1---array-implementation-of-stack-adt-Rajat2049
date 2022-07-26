@@ -4,7 +4,7 @@ class Stack:
         self.size = size
         self.items = [None]*size
         
-        self.top=-1;
+        self.top=-1
 
     def is_empty(self):
         return self.top==-1
@@ -28,7 +28,8 @@ class Stack:
 
     def status(self):
         for i in range(self.top+1):
-            print(self.items[i])  
+            print(self.items[i]) 
+       
 
 # Do not change the following code
 size, queries = map(int, input().rstrip().split())
